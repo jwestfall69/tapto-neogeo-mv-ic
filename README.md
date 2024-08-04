@@ -41,7 +41,7 @@ The items linked above are what I used.
 
 
 ### MV-IC
-The original MV-IC should look like this<b>
+The original MV-IC should look like this<br>
 ![original mv-ic](images/mv-ic-original.jpg)
 
 Remove the 2 nuts/screws holding on the square plastic part that is used to guide the memory card into the PCMCIA slot.  The 3d printed parts will replace this plastic piece. 
@@ -52,7 +52,7 @@ Use the STL file from the repo to print the 3d parts, which should look like thi
 
 ![3d print](images/3d_print.jpg)
 
-You will note that the lip on it on the right side of the left part in the picture.  This is to prevent the NFC card from being inserted to far and damaging the pins of the PCMCIA slot.
+You will note the lip on the right side of the left part in the picture.  This is to prevent the NFC card from being inserted to far and damaging the pins of the PCMCIA slot.
 
 If you want to make changes to the parts you can directly use/mess with the TinkerCAD version of it [here](https://www.tinkercad.com/things/htaqLKyCQPt-tapto-neogeo-mv-ic).
 
@@ -82,11 +82,11 @@ At this point I would advise verifying to you can get TapTo working with the NFC
 
 Wire up the USB-to-TTL cable with the NFC Reader.  The pinout for serial is on the silk screen on the *underside* of the board. Details on getting TapTo setup can be found on the [TapTo Wiki](https://tapto.wiki/Getting_Started), as well as info on how to program the NFC Cards.
 
-I would suggest installing the TapTo phone app. It makes it really easy to configure TapTo and write cards.  Additionally, under settings change the Reader mode to `Insert`.  This makes so when you insert the card it will load the game, when you remove the card it will cause MiSTer to return to its main menu.
+I would suggest installing the TapTo phone app. It makes it really easy to configure TapTo and write cards.  Additionally, under settings in the phone app, change the Reader mode to `Insert`.  This makes so when you insert the card it will load the game, when you remove the card it will cause MiSTer to return to its main menu.
 
 ### Install NFC Reader
-Using the M3 x 4mm screws install the NFC reader onto the 3d printed part as show.<br>
+Using the M3 x 4mm screws, install the NFC reader onto the 3d printed part as show.<br>
 
 ![nfc reader installed](images/nfc_reader_installed.jpg)
 
-At this point you install the MV-IC back into your cabinet.  The lower 3d printed part should protrude a bit outside of the cabinet's control panel.  I designed it this way to make it easier to know when you have the NFC card lined up correctly for insertion.
+At this point you can install the MV-IC back into your cabinet.  The lower 3d printed part should protrude a bit outside of the cabinet's control panel.  I designed it this way to make it easier to know when you have the NFC card lined up correctly for insertion without having to look under the control panel.
